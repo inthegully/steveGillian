@@ -1,0 +1,40 @@
+.header {
+  background-color: rgba(255, 255, 255, .5);
+}
+.wreath-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wreath {
+  width: 80%;
+
+  @media (width >= 415px) and (width <= 769px)  {
+    width: 60%;
+  }
+
+  @media (min-width: 770px) {
+    width: 50%;
+  }
+}
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item {
+  font-family: "Euphoria Script", cursive;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+  @media (width >= 545px) and (width <= 769px)  {
+    font-size: 35px;
+  }
+
+  @media (min-width: 770px) {
+    font-size: 40px;
+  }
+}

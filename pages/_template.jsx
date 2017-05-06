@@ -1,9 +1,10 @@
-import React from "react"
-import { Link } from "react-router"
-import { prefixLink } from "gatsby-helpers"
-import Helmet from "react-helmet"
-import { config } from "config"
-import { rhythm } from "../utils/typography"
+import React from "react";
+import { Link } from "react-router";
+import { prefixLink } from "gatsby-helpers";
+import Helmet from "react-helmet";
+import { config } from "config";
+import "../css/template.css";
+import Header from "../components/Header/Header.js";
 
 module.exports = React.createClass({
   propTypes() {
@@ -13,7 +14,7 @@ module.exports = React.createClass({
   },
   render() {
     return (
-      <div>
+      <div className="main-body-background">
         <Helmet
           title={config.siteTitle}
           meta={[
@@ -21,38 +22,10 @@ module.exports = React.createClass({
             { name: "keywords", content: "sample, something" },
           ]}
         />
-        <div
-          style={{
-            background: `rebeccapurple`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          <div
-            style={{
-              margin: `0 auto`,
-              maxWidth: 960,
-              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            }}
-          >
-            <h1 style={{ margin: 0 }}>
-              <Link
-                to={prefixLink("/")}
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                Gatsby
-              </Link>
-            </h1>
-          </div>
-        </div>
+        <Header />
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            paddingTop: 0,
           }}
         >
           {this.props.children}

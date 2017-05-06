@@ -1,0 +1,6 @@
+.main-body-background {
+  background-image: url('../images/proposal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
