@@ -6,7 +6,7 @@ export default class Rsvp extends React.Component {
     return (
       <div>
         <div className="rsvp-body">
-          <iframe className="form" src="https://docs.google.com/forms/d/e/1FAIpQLScZQeYCmZeJ0IniSx4EgQSGzvSUnmigF0_4Fs_WTLNCTlrA4w/viewform?embedded=true" width="760" height="900" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no">Loading...</iframe>
+          <iframe className="form" src="https://docs.google.com/forms/d/e/1FAIpQLScZQeYCmZeJ0IniSx4EgQSGzvSUnmigF0_4Fs_WTLNCTlrA4w/viewform?embedded=true" width="100%" height="900" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no">Loading...</iframe>
         </div>
       </div>
     );

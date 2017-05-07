@@ -6,10 +6,18 @@
   padding-bottom: 15px;
   margin-top: 25px;
   margin-bottom: 25px;
+
+  @media (min-width: 1025px) {
+    width: 80%;
+  }
 }
 .form {
+  width: 90%;
   display: block;
   margin: 0 auto;
-  padding: 25px;
   overflow: hidden;
+
+  @media (min-width: 1025px) {
+    width: 80%;
+  }
 }
