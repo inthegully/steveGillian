@@ -28,13 +28,13 @@ export default class Header extends React.Component {
                 RSVP
               </Link>
               <Link
-                to={prefixLink("/")}
+                to={prefixLink("/venue/")}
                 className="nav-item"
               >
                 Venue
               </Link>
               <Link
-                to={prefixLink("/")}
+                to={prefixLink("/schedule/")}
                 className="nav-item"
               >
                 Schedule
