@@ -46,7 +46,7 @@ export default class Header extends React.Component {
                 Details
               </Link>
               <Link
-                to={prefixLink("/")}
+                to={prefixLink("/registry/")}
                 className="nav-item"
               >
                 Registry
