@@ -17,7 +17,9 @@ export default class Schedule extends React.Component {
           <h3>
             We are registered at Zola Wedding Registry online. Click the icon below to be taken there!
           </h3>
-          <img className="zola" src={Zola} alt="Zola Logo"/>
+          <a href="https://www.zola.com/registry/gillianandsteven" target="_blank">
+            <img className="zola" src={Zola} alt="Zola Logo"/>
+          </a>
         </div>
       </div>
     );

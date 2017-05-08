@@ -14,15 +14,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 770px) {
+    width: 25%;
+  }
 }
 .footer-words {
   display: inline-block;
   font-size: 10px;
   padding-top: 15px;
+
+  @media (min-width: 415px) {
+    font-size: 20px;
+  }
+  @media (min-width: 770px) {
+    font-size: 12px;
+  }
 }
 .logo {
   display: inline-block;
   width: 50%;
   height: 50%;
   margin-top: 10px;
+
+  @media (min-width: 770px) {
+    width: 35%;
+    height: 35%;
+  }
 }

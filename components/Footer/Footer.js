@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
     return(
       <div>
         <div className="footer">
-          <a className="footer-item" href="http://www.inthegully.com/">
+          <a className="footer-item" href="http://www.inthegully.com/" target="_blank">
             <p className="footer-words">
               website by
             </p>
