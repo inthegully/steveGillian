@@ -40,7 +40,7 @@ export default class Header extends React.Component {
                 Schedule
               </Link>
               <Link
-                to={prefixLink("/")}
+                to={prefixLink("/details/")}
                 className="nav-item"
               >
                 Details
