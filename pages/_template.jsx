@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 import { config } from "config";
 import "../css/template.css";
 import Header from "../components/Header/Header.js";
+import Footer from "../components/Footer/Footer.js";
 
 module.exports = React.createClass({
   propTypes() {
@@ -30,6 +31,7 @@ module.exports = React.createClass({
         >
           {this.props.children}
         </div>
+        <Footer />
       </div>
     )
   },
