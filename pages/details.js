@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
 import '../css/details.css';
 import LeftLeaf from '../images/leftleaf.png';
 import RightLeaf from '../images/rightleaf.png';
@@ -26,7 +28,7 @@ export default class Details extends React.Component {
             <div className="attractions">
               <h3 className="detail-title">Attractions and Activities</h3>
               <p className="detail-description">
-                We hope you all get the chance to explore all the amazing things
+                We hope you all get the chance to explore the amazing things
                 to do in Utah on your visit. Please don’t hesitate to contact us
                 if you need additional suggestions on activities, hikes, or attractions.
               </p>
@@ -89,7 +91,7 @@ export default class Details extends React.Component {
             <div className="accommodations">
               <h3 className="detail-title">Accommodations</h3>
               <p className="detail-description">
-                Coming Soon!
+                <a className="attraction-link" href="https://drive.google.com/open?id=0B7FtEI2KSIUHek5BSXZlYjliei1WaTRwUzM5bjNyS0xzOUhZ" target="_blank">Hotel Recommendations</a>
               </p>
             </div>
             <div className="transportation">
