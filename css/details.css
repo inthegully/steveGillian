@@ -1,8 +1,8 @@
 .details-height {
-  height: 1000px;
+  height: 2000px;
 
   @media (min-width: 545px) {
-    height: 1500px;
+    height: 2500px;
   }
 }
 .details-body {
@@ -74,4 +74,14 @@
 }
 .transportation {
   width: 100%;
+}
+.shuttle-direction {
+  font-size: 20px;
+}
+.shuttle-detail {
+  font-size: 20px;
+}
+.shuttle-map {
+  width: 80%;
+  height: 200px;
 }

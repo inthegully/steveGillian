@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers';
 import '../css/details.css';
 import LeftLeaf from '../images/leftleaf.png';
 import RightLeaf from '../images/rightleaf.png';
+import Iframe from 'react-iframe';
 
 export default class Details extends React.Component {
   render() {
@@ -97,7 +98,45 @@ export default class Details extends React.Component {
             <div className="transportation">
               <h3 className="detail-title">Transportation</h3>
               <p className="detail-description">
-                Coming Soon!
+                Parking is available at the venue. We will provide a small shuttle with pick-up locations in Park City and Heber for guests that may need this service.
+                The shuttle will depart promptly and only at the listed times below.
+              </p>
+              <h4 className="shuttle-direction">
+                Departure
+              </h4>
+              <p className="shuttle-detail">
+                Park City - 2:30 P.M. <br/>
+                The shuttle will be off Main Street on Swede Alley behind the Post Office.
+              </p>
+              <div className="shuttle-map">
+                <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.2587493348956!2d-111.41527068460177!3d40.491660979356496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874df5bb7d9dc37f%3A0x3b614f152127cc20!2sHoliday+Inn+Express+Heber+City!5e0!3m2!1sen!2sus!4v1497301062590"
+                  width="auto"
+                  height="auto"
+                  frameBorder="0"
+                  style="border:0"
+                  allowFullScreen
+                />
+              </div>
+              <p className="shuttle-detail">
+                Heber City - 3:15 P.M. <br/>
+                Holiday Inn Express
+              </p>
+              <div className="shuttle-map">
+                <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.3544266378935!2d-111.49796468459712!3d40.64411697933928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875272bc51589653%3A0x7e248ff6f95563c3!2sUS+Post+Office!5e0!3m2!1sen!2sus!4v1497301097679"
+                  width="auto"
+                  height="auto"
+                  frameBorder="0"
+                  style="border:0"
+                  allowFullScreen
+                />
+              </div>
+              <h4 className="shuttle-direction">
+                Return
+              </h4>
+              <p className="shuttle-detail">
+                Red Cliff Ranch - 10:45 P.M. <br/>
+                The shuttle will leave the venue at 10:45 P.M. and return to the same pick up locations.
+                Estimated arrival time in Heber will be 11:00 P.M. and 11:30 P.M. in Park City.
               </p>
             </div>
           </div>

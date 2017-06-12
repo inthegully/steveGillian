@@ -15,7 +15,7 @@ export default class Schedule extends React.Component {
           </div>
           <ul className="schedule">
             <li className="schedule-item">
-              3:30  |  Guest's Arrive (please don't be late!)
+              3:30  |  Guests Arrive (please don't be late!)
             </li>
             <li className="schedule-item">
               4:00  |  Ceremony
